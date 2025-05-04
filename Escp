@@ -14,7 +14,7 @@ while game:
     window.blit(background,(0,0)) 
     window.blit(sprite1,(x1,y1)) 
     window.blit(sprite2,(x2,y2)) 
-    for e in event.get(//): 
+    for e in event.get(): 
         if e.type == QUIT: 
             game = False 
     keys_pressed = key.get_pressed() 
