@@ -26,7 +26,7 @@ while game:
         x2 = x2-10 
     if keys_pressed[K_RIGHT] and x2 <700-100: /*
         x2 = x2+10 
-    if keys_pressed[K_w] and y1> 0: 
+    if keys_pressed[K_w] and y1> 0: **
         y1 = y1-10 
     if keys_pressed[K_s] and y1< 500-100: 
         y1 = y1+10 
